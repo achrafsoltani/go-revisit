@@ -11,7 +11,12 @@ const (
 	E  = 2.718
 )
 
+// main
 func main() {
-
 	fmt.Println("Hello app", pi)
+}
+
+// function
+func greet(name string) string {
+	return "hello" + name + "!"
 }
