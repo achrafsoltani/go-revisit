@@ -15,6 +15,8 @@ const (
 func main() {
 	name := "App"
 	fmt.Println(greet(name))
+	p := &name
+	fmt.Println("name var has pointer address at: ", p)
 }
 
 // function
