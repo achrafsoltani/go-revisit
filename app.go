@@ -13,10 +13,11 @@ const (
 
 // main
 func main() {
-	fmt.Println("Hello app", pi)
+	name := "App"
+	fmt.Println(greet(name))
 }
 
 // function
 func greet(name string) string {
-	return "hello" + name + "!"
+	return "hello " + name + "!"
 }
